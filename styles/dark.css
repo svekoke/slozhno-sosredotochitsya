@@ -5,6 +5,17 @@
 */
 
 .page.theme_dark {
+  --background-image: url(../images/cover-image-dark.png);
+  --accent-color: rgba(255, 0, 112, 1);
+  --acent-color-opacity: rgba(255, 0, 112, 0.4);
+  --main-text-color: rgba(241, 178, 206, 1);
+  --title-text-color:var(--background-color);
+  --background-color: rgba(0, 0, 40, 1);
+  --header-color1: rgba(219, 0, 255, 1);
+  --decoration: var(--accent-color);
+  --rec-color: var(--accent-color);
+  --rectangle:var(--accent-color);
+  --header-color2: var(--accent-color);
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
