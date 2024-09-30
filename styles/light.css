@@ -20,3 +20,18 @@
   --header-color1: rgba(255, 194, 230, 1);
   --header-color2: rgba(255, 0, 112, 1);
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-image: url(../images/cover-image-light.png);
+    --accent-color: rgba(255, 141, 203, 1);
+    --acent-color-opacity: rgba(50, 49, 45, 0.4);
+    --main-text-color: rgba(53, 52, 48, 1);
+    --title-text-color: var(--main-text-color);
+    --rectangle: var(--main-text-color);
+    --rec-color: var(--background-color);
+    --background-color: rgb(255, 241, 247);
+    --header-color1: rgba(255, 194, 230, 1);
+    --header-color2: rgba(255, 0, 112, 1);
+  }
+}
