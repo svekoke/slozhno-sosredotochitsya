@@ -17,8 +17,8 @@
   --rectangle: var(--main-text-color);
   --rec-color: var(--background-color);
   --background-color: rgb(255, 241, 247);
-  --header-color1: rgba(255, 194, 230, 1);
-  --header-color2: rgba(255, 0, 112, 1);
+  --header-color-basic: rgba(255, 194, 230, 1);
+  --header-color-shadow: rgba(255, 0, 112, 1);
 }
 
 @media (prefers-color-scheme: light) {
@@ -31,7 +31,7 @@
     --rectangle: var(--main-text-color);
     --rec-color: var(--background-color);
     --background-color: rgb(255, 241, 247);
-    --header-color1: rgba(255, 194, 230, 1);
-    --header-color2: rgba(255, 0, 112, 1);
+    --header-color-basic: rgba(255, 194, 230, 1);
+    --header-color-shadow: rgba(255, 0, 112, 1);
   }
 }

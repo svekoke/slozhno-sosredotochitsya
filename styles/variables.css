@@ -7,13 +7,13 @@
   --accent-color: rgba(255, 0, 112, 1);
   --acent-color-opacity: rgba(255, 0, 112, 0.4);
   --main-text-color: rgba(241, 178, 206, 1);
-  --title-text-color:var(--background-color);
+  --title-text-color: var(--background-color);
   --background-color: rgba(0, 0, 40, 1);
-  --header-color1: rgba(219, 0, 255, 1);
+  --header-color-basic: rgba(219, 0, 255, 1);
   --decoration: var(--accent-color);
   --rec-color: var(--accent-color);
-  --rectangle:var(--accent-color);
-  --header-color2: var(--accent-color);
+  --rectangle: var(--accent-color);
+  --header-color-shadow: var(--accent-color);
   --font-size: 18px;
   --line-height-small: 18px;
   --line-height-medium: 23.4px;
@@ -21,5 +21,5 @@
   --line-height-title: 95.7px;
   --font-wight-small: 400;
   --font-weight-large: 700;
-  --font-family:'IBM Plex mono', monospace;
+  --font-family: "IBM Plex mono", monospace;
 }
