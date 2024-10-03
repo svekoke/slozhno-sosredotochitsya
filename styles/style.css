@@ -42,9 +42,10 @@
   height: 100vh;
   padding: 10px;
   display: grid;
-  grid-template-rows: 1fr min-content 1fr; /* без марджинов просто не выравнивается никак по таким размерам*/
+  grid-template-rows: 1fr min-content 1fr;
   align-items: center;
   position: relative;
+  min-height: 668px;
 }
 
 .decorated-zone::before {
@@ -287,7 +288,7 @@ a:hover {
     grid-template-columns: 236px 1fr;
   }
 
-  .flex {
+  .flex-to-grid {
     display: flex;
     flex-direction: column;
   }
@@ -358,17 +359,12 @@ a:hover {
   }
 
   .main-title {
-    max-width: 314.96px;
+    min-width: 314.96px;
   }
 
-  .flex .block-text {
-    max-width: 314px;
-  }
-
-  .flex .blocks {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  .flex-to-grid .blocks {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
   }
 
   .no-margin .block-text {
