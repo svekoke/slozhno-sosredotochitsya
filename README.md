@@ -1,3 +1,3 @@
 Проектная работа «Сложно сосредоточиться»
 
-https://github.com/svekoke/slozhno-sosredotochitsya.git
+https://svekoke.github.io/slozhno-sosredotochitsya/
